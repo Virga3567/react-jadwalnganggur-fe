@@ -8,7 +8,7 @@ const AnalogClockWithOuterSchedule = () => {
     return () => clearInterval(timer);
   }, []);
 
-  // Ubah Bagian Sini Aja Guys >_<
+  // jadwal nganggur
   const activities = [
     { name: "Tidur", start: 1, end: 4 },
     { name: "Bangun", start: 4, end: 5 },
