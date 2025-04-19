@@ -15,10 +15,10 @@ const AnalogClockWithOuterSchedule = () => {
     { name: "Aktivitas", start: 7, end: 11.5 },
     { name: "Ishoma", start: 11.5, end: 13},
     { name: "Les", start: 13, end: 15 },
-    { name: "solat aktifitas", start: 15, end: 17 },
+    { name: "Ashar & Act", start: 15, end: 17 },
     { name: "Ngabuburit", start: 17, end: 18 },
     { name: "Buka :)", start: 18, end: 19 },
-    { name: "Belajar", start: 19, end: 20 },
+    { name: "Tarawih", start: 19, end: 20 },
     { name: "Free", start: 20, end: 22 },
     { name: "Turu", start: 22, end: 27 },
     
