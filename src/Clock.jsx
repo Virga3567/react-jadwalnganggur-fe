@@ -36,7 +36,7 @@ const AnalogClockWithOuterSchedule = () => {
       <p style={{ margin: 0 }}>
         <i>Inspired by Bae Seok Ryu - Love Next Door</i>
       </p>
-      <h3 style={{ margin: 10 }}>Clock</h3>
+      <h3 style={{ margin: 10 }}>Today's Time Table</h3>
       <div className="clock-container">
         <div className="clock">
           {activities.map((activity, index) => {
