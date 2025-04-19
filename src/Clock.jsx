@@ -32,7 +32,7 @@ const AnalogClockWithOuterSchedule = () => {
 
   return (
     <div className="outer-container ">
-      <h2 style={{ margin: 10 }}>Keseharian bulan puasa</h2>
+      <h2 style={{ margin: 10 }}>Fahima's Schedule</h2>
       <p style={{ margin: 0 }}>
         <i>Inspired by Bae Seok Ryu - Love Next Door</i>
       </p>
