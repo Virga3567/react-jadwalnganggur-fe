@@ -10,16 +10,20 @@ const AnalogClockWithOuterSchedule = () => {
 
   //jadwal nganggur
   const activities = [
-    { name: "Turu", start: 1, end: 4 },
-    { name: "Bangun", start: 4, end: 5 },
-    { name: "Clean up", start: 5, end: 7 },
-    { name: "Olahraga", start: 7, end: 8 },
-    { name: "Nonton", start: 8, end: 11 },
-    { name: "Ishoma ", start: 11, end: 13 },
-    { name: "Ngoding", start: 13, end: 15 },
-    { name: "Free time :)", start: 15, end: 18 },
-    { name: "Belajar", start: 18, end: 22 },
-    { name: "Research", start: 22, end: 24 },
+    { name: "Sahur", start: 3, end: 5 },
+    { name: "Nap", start: 5, end: 7 },
+    { name: "Aktivitas", start: 7, end: 11.5 },
+    { name: "Ishoma", start: 11.5, end: 13},
+    { name: "Les", start: 13, end: 15 },
+    { name: "solat aktifitas", start: 15, end: 17 },
+    { name: "Ngabuburit", start: 17, end: 18 },
+    { name: "Buka :)", start: 18, end: 19 },
+    { name: "Belajar", start: 19, end: 20 },
+    { name: "Free", start: 20, end: 22 },
+    { name: "Turu", start: 22, end: 27 },
+    
+    
+    
   ];
 
   const secondsDegrees = (time.getSeconds() / 60) * 360;
@@ -28,11 +32,11 @@ const AnalogClockWithOuterSchedule = () => {
 
   return (
     <div className="outer-container ">
-      <h2 style={{ margin: 10 }}>JADWAL MENGANGGUR YOUR_NAME !</h2>
+      <h2 style={{ margin: 10 }}>Keseharian bulan puasa</h2>
       <p style={{ margin: 0 }}>
         <i>Inspired by Bae Seok Ryu - Love Next Door</i>
       </p>
-      <h3 style={{ margin: 10 }}>TODAY'S TIME TABLE</h3>
+      <h3 style={{ margin: 10 }}>Clock</h3>
       <div className="clock-container">
         <div className="clock">
           {activities.map((activity, index) => {
@@ -46,7 +50,7 @@ const AnalogClockWithOuterSchedule = () => {
                   className="activity-segment"
                   style={{
                     transform: `rotate(${activity.start * 15}deg)`,
-                    height: "170px",
+                    height: "180px",
                     transformOrigin: "bottom center",
                     position: "absolute",
                     width: "1px",
